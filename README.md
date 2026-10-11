@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -73,3 +74,7 @@ export default defineConfig([
 ])
 
 ```
+=======
+# RapiRifa
+RapiRifa es una aplicación web que facilita la creación, gestión y participación en rifas organizadas por personas naturales. Cuenta con perfiles de vendedor y cliente, permitiendo administrar premios, establecer condiciones y plazos, y adquirir boletos individuales de forma sencilla.
+>>>>>>> d488beb48cee4c4a360f6f29cc0878eb02e6e381
