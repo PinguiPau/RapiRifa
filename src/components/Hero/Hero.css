@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+.hero{
+    min-height: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+    padding: 100px;
+    position: relative;
+    color: #fdfdfd;
+}
+
+.hero-content {
+    width: 40%;
+}
+
+.hero-image {
+    width: 50%;
+    transform: translateY(-120px);
+}
+
+.hero h1{
+    line-height: 1;
+    font-family: "Palanquin Dark", sans-serif;
+    
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px 24px;
+}
+
+.hero button{
+    align-self: center;
+    width:300px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: rgba(57, 0, 98, 0.646);
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.hero button:hover{
+    background-color: rgba(93, 0, 159, 0.747);
+    color: rgb(162, 0, 255);
+}

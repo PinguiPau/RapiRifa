@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Righteous&display=swap');
+
+.Explore{
+font-family: "Righteous", sans-serif;
+
+}
+
+.TituloExplore{
+    background-image: url('../../assets/morado.avif');
+    background-size:contain;
+    background-position: center;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 60px;
+}
+
+.PrimerContenido {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 230px;
+    padding: 0px 150px
+}
+
+.ImgPrimerContenido img {
+    width: 250px;
+    height: 200px;
+}
+
+.PrimerContenido p {
+    flex: 1;
+    background-color: #9C89B6;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 0;
+    border: 6px solid #29006a80;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    text-align: center;
+}
+
+.SegundoContenido {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 230px;
+    padding: 30px 170px;
+}
+
+.ImgSegundoContenido{
+    width: 200px;
+    height: auto;
+}
+
+.SegundoContenido p{
+    flex: 1;
+    background-color: #9C89B6;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 0;
+    border: 6px solid #29006a80;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    text-align: center;
+}
+
+.TercerContenido{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 300px;
+    padding: 10px 150px
+}
+
+.ImgTercerContenido{
+    width: 200px;
+    height: auto;
+}
+
+.TercerContenido p{
+    flex: 1;
+    background-color: #9C89B6;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 0;
+    border: 6px solid #29006a80;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    text-align: center;
+}
+

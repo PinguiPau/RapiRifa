@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Righteous&display=swap');
+
+.Rifas{
+font-family: "Righteous", sans-serif;
+
+}
+
+.TituloRifas{
+    background-image: url('../../assets/morado.avif');
+    background-size:contain;
+    background-position: center;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 60px;
+}
+
+
+.ContenedorRifas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 50px 100px;
+}
+
+.PrimerRifa,
+.SegundaRifa,
+.TerceraRifa {
+    background-color: #39005c;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.PrimerRifa,
+.SegundaRifa,
+.TerceraRifa p{
+    color: #fefefe;
+}
+
+.CuartaRifa,
+.QuintaRifa,
+.SextaRifa,
+.SeptimaRifa,
+.OctavaRifa,
+.NovenaRifa {
+    background-color: #fefefe;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);  
+}
+
+.PrimerRifa:hover,
+.SegundaRifa:hover,
+.TerceraRifa:hover,
+.CuartaRifa:hover,
+.QuintaRifa:hover,
+.SextaRifa:hover,
+.SeptimaRifa:hover,
+.OctavaRifa:hover,
+.NovenaRifa:hover {
+    transform: translateY(-10px);
+}
+
+.BotonDetalles {
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 120px;
+    background-color: #ffffff;
+    color: #2d0051;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.BotonDetalles2 {
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 120px;
+    background-color: #2d0051;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,34 @@
+h1{
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.background1-Inicio{
+background-image: url(assets/Fondo-rifa.png);
+background-size: 100% 100%;
+background-position: center top;
+background-repeat: no-repeat;
+min-height: 100vh;
+background-attachment: fixed;
+}
+
+.background2-Inicio{
+background-image: url(assets/FondoBlanco1.png);
+background-size: 100% 100%;
+background-position: center top;
+background-repeat: no-repeat;
+min-height: 100vh;
+background-attachment: fixed;
+}
+
+.background3-Inicio{
+background-image: url(assets/FondoBlanco2.png);
+background-size: 100% 100%;
+background-position: center top;
+background-repeat: no-repeat;
+min-height: 100vh;
+background-attachment: fixed;
+}
