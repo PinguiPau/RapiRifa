@@ -32,3 +32,12 @@ background-repeat: no-repeat;
 min-height: 100vh;
 background-attachment: fixed;
 }
+
+.background1-InicioSesion{
+background-image: url(assets/FondoMorado1.png);
+background-size: 100% 100%;
+background-position: center top;
+background-repeat: no-repeat;
+min-height: 100vh;
+background-attachment: fixed;
+}

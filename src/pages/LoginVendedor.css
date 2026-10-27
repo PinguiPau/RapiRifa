@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+.PaginaLoginVendedor {
+    font-family: "Righteous", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.FormularioVendedor {
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.FormularioVendedor h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.FormularioVendedor p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4b4b4b;
+}
+
+.FormularioVendedor form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.FormularioVendedor input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #b1b1b1;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.FormularioVendedor button {
+    margin-top: 15px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #6a0dad, #8a2be2, #ac5ef5, #8a2be2, #6a0dad, #8a2be2, #ac5ef5, #8a2be2, #6a0dad);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.crear-cuenta {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}

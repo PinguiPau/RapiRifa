@@ -1,5 +1,6 @@
 import './Header.css'
 import logo from '../../assets/Logo.png'
+import { Link } from 'react-router-dom'
 
 function Header(){
     return (
@@ -14,7 +15,7 @@ function Header(){
                 <a href='#Contacto'>Contacto</a>
                 <a href='#Rifas'>Rifas Activas</a>
                 <a href='#Explore'>Explorar</a>
-                <a href='#'>Iniciar Sesion</a>
+                <Link to="/iniciar-sesion">Iniciar Sesión</Link>
             </nav>
             
         </div>
